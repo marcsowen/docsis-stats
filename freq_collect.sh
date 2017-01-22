@@ -1,5 +1,3 @@
-#!/bin/sh
-
 #!/bin/bash
 
 echo 0 | sudo tee -a /sys/module/dvb_core/parameters/dvb_powerdown_on_sleep
