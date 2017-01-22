@@ -1,6 +1,8 @@
 # docsis-stats
 Some scripts to measure current utilization of DOCSIS downstream channels
 
+![24h graph](example.png)
+
 These scripts are heavily inspired by the collective work of some people at the
 "Inoffizielles Vodafone-Kabel-Forum"
 
