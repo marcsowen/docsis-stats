@@ -4,7 +4,7 @@ BASE_DIR=/home/pi/dvb
 TIMES="end-1d end-1w end-4w end-1y"
 
 for i in $TIMES; do
-    rrdtool graph images/combined-$i.png \
+    rrdtool graph ${BASE_DIR}/images/combined-$i.png \
     --title="21337 Lüneburg | All Channels | $i" \
     --vertical-label='Bits per second' \
     -W "$(date '+%F %T %Z')" \
