@@ -252,5 +252,3 @@ for i in $TIMES; do
     LINE1:bmax#5f5f5f:"Peak-Bandwidth"
     echo ""
 done
-
-sudo cp images/* /var/www/html
