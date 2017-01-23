@@ -119,124 +119,124 @@ for i in $TIMES; do
     COMMENT:"Separate Channel Statistics\n" \
     COMMENT:" \n" \
     COMMENT:"QAM 256 (Σ 667.392 Mbit/s)\n" \
-    AREA:b546avg#FF0000:'546 Mhz      ' \
+    AREA:b546avg#FF0000:'546 MHz      ' \
     GPRINT:b546avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b546min:MIN:"Min %5.2lf %s   " \
     GPRINT:b546max:MAX:"Max %5.2lf %s" \
     GPRINT:b546last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b554avg#FF4000:'554 Mhz      ' \
+    STACK:b554avg#FF4000:'554 MHz      ' \
     GPRINT:b554avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b554min:MIN:"Min %5.2lf %s   " \
     GPRINT:b554max:MAX:"Max %5.2lf %s" \
     GPRINT:b554last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b562avg#FF8000:'562 Mhz      ' \
+    STACK:b562avg#FF8000:'562 MHz      ' \
     GPRINT:b562avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b562min:MIN:"Min %5.2lf %s   " \
     GPRINT:b562max:MAX:"Max %5.2lf %s" \
     GPRINT:b562last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b570avg#FFBF00:'570 Mhz      ' \
+    STACK:b570avg#FFBF00:'570 MHz      ' \
     GPRINT:b570avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b570min:MIN:"Min %5.2lf %s   " \
     GPRINT:b570max:MAX:"Max %5.2lf %s" \
     GPRINT:b570last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b578avg#FFFF00:'578 Mhz      ' \
+    STACK:b578avg#FFFF00:'578 MHz      ' \
     GPRINT:b578avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b578min:MIN:"Min %5.2lf %s   " \
     GPRINT:b578max:MAX:"Max %5.2lf %s" \
     GPRINT:b578last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b586avg#BFFF00:'586 Mhz      ' \
+    STACK:b586avg#BFFF00:'586 MHz      ' \
     GPRINT:b586avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b586min:MIN:"Min %5.2lf %s   " \
     GPRINT:b586max:MAX:"Max %5.2lf %s" \
     GPRINT:b586last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b594avg#80FF00:'594 Mhz      ' \
+    STACK:b594avg#80FF00:'594 MHz      ' \
     GPRINT:b594avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b594min:MIN:"Min %5.2lf %s   " \
     GPRINT:b594max:MAX:"Max %5.2lf %s" \
     GPRINT:b594last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b602avg#40FF00:'602 Mhz      ' \
+    STACK:b602avg#40FF00:'602 MHz      ' \
     GPRINT:b602avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b602min:MIN:"Min %5.2lf %s   " \
     GPRINT:b602max:MAX:"Max %5.2lf %s" \
     GPRINT:b602last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b666avg#00FF00:'666 Mhz      ' \
+    STACK:b666avg#00FF00:'666 MHz      ' \
     GPRINT:b666avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b666min:MIN:"Min %5.2lf %s   " \
     GPRINT:b666max:MAX:"Max %5.2lf %s" \
     GPRINT:b666last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b674avg#00FF40:'674 Mhz      ' \
+    STACK:b674avg#00FF40:'674 MHz      ' \
     GPRINT:b674avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b674min:MIN:"Min %5.2lf %s   " \
     GPRINT:b674max:MAX:"Max %5.2lf %s" \
     GPRINT:b674last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b682avg#00FF80:'682 Mhz      ' \
+    STACK:b682avg#00FF80:'682 MHz      ' \
     GPRINT:b682avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b682min:MIN:"Min %5.2lf %s   " \
     GPRINT:b682max:MAX:"Max %5.2lf %s" \
     GPRINT:b682last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b690avg#00FFBF:'690 Mhz      ' \
+    STACK:b690avg#00FFBF:'690 MHz      ' \
     GPRINT:b690avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b690min:MIN:"Min %5.2lf %s   " \
     GPRINT:b690max:MAX:"Max %5.2lf %s" \
     GPRINT:b690last:LAST:"  Last %5.2lf %s\n" \
     COMMENT:" \n" \
     COMMENT:"QAM 64 (Σ 500.544 Mbit/s)\n" \
-    STACK:b698avg#00FFFF:'698 Mhz      ' \
+    STACK:b698avg#00FFFF:'698 MHz      ' \
     GPRINT:b698avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b698min:MIN:"Min %5.2lf %s   " \
     GPRINT:b698max:MAX:"Max %5.2lf %s" \
     GPRINT:b698last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b706avg#00BFFF:'706 Mhz      ' \
+    STACK:b706avg#00BFFF:'706 MHz      ' \
     GPRINT:b706avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b706min:MIN:"Min %5.2lf %s   " \
     GPRINT:b706max:MAX:"Max %5.2lf %s" \
     GPRINT:b706last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b714avg#0080FF:'714 Mhz      ' \
+    STACK:b714avg#0080FF:'714 MHz      ' \
     GPRINT:b714avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b714min:MIN:"Min %5.2lf %s   " \
     GPRINT:b714max:MAX:"Max %5.2lf %s" \
     GPRINT:b714last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b722avg#0040FF:'722 Mhz      ' \
+    STACK:b722avg#0040FF:'722 MHz      ' \
     GPRINT:b722avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b722min:MIN:"Min %5.2lf %s   " \
     GPRINT:b722max:MAX:"Max %5.2lf %s" \
     GPRINT:b722last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b762avg#0000FF:'762 Mhz      ' \
+    STACK:b762avg#0000FF:'762 MHz      ' \
     GPRINT:b762avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b762min:MIN:"Min %5.2lf %s   " \
     GPRINT:b762max:MAX:"Max %5.2lf %s" \
     GPRINT:b762last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b770avg#4000FF:'770 Mhz      ' \
+    STACK:b770avg#4000FF:'770 MHz      ' \
     GPRINT:b770avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b770min:MIN:"Min %5.2lf %s   " \
     GPRINT:b770max:MAX:"Max %5.2lf %s" \
     GPRINT:b770last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b778avg#8000FF:'778 Mhz      ' \
+    STACK:b778avg#8000FF:'778 MHz      ' \
     GPRINT:b778avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b778min:MIN:"Min %5.2lf %s   " \
     GPRINT:b778max:MAX:"Max %5.2lf %s" \
     GPRINT:b778last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b786avg#BF00FF:'786 Mhz      ' \
+    STACK:b786avg#BF00FF:'786 MHz      ' \
     GPRINT:b786avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b786min:MIN:"Min %5.2lf %s   " \
     GPRINT:b786max:MAX:"Max %5.2lf %s" \
     GPRINT:b786last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b794avg#FF00FF:'794 Mhz      ' \
+    STACK:b794avg#FF00FF:'794 MHz      ' \
     GPRINT:b794avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b794min:MIN:"Min %5.2lf %s   " \
     GPRINT:b794max:MAX:"Max %5.2lf %s" \
     GPRINT:b794last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b802avg#FF00BF:'802 Mhz      ' \
+    STACK:b802avg#FF00BF:'802 MHz      ' \
     GPRINT:b802avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b802min:MIN:"Min %5.2lf %s   " \
     GPRINT:b802max:MAX:"Max %5.2lf %s" \
     GPRINT:b802last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b810avg#FF0080:'810 Mhz      ' \
+    STACK:b810avg#FF0080:'810 MHz      ' \
     GPRINT:b810avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b810min:MIN:"Min %5.2lf %s   " \
     GPRINT:b810max:MAX:"Max %5.2lf %s" \
     GPRINT:b810last:LAST:"  Last %5.2lf %s\n" \
-    STACK:b818avg#FF0040:'818 Mhz      ' \
+    STACK:b818avg#FF0040:'818 MHz      ' \
     GPRINT:b818avg:AVERAGE:"Avg %5.2lf %s   " \
     GPRINT:b818min:MIN:"Min %5.2lf %s   " \
     GPRINT:b818max:MAX:"Max %5.2lf %s" \
